@@ -34,6 +34,7 @@ public class MainActivity extends Activity {
         int duration = Toast.LENGTH_SHORT;
         CharSequence text = "This button will launch my " + buttonText + " app!";
         Toast.makeText(this, text, duration).show();
+
     }
 
     @Override
