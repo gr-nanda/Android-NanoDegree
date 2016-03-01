@@ -1,0 +1,99 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:accessibilityLiveRegion="polite"
+    android:clickable="false"
+    android:foregroundTint="#e5ffe7"
+    android:textAlignment="center"
+    android:id="@+id/layout1"
+    android:background="#ffdfeaf1"
+    android:scrollIndicators="none">
+
+    <TextView android:text="@string/screen_name" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/text1"
+        android:textStyle="bold"
+        android:textColor="#703cff"
+        android:textSize="@dimen/activity_horizontal_margin" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/streamer_button"
+        android:id="@+id/button"
+        android:layout_below="@+id/text1"
+        android:layout_marginTop="35dp"
+        android:layout_alignStart="@+id/button2"
+        android:layout_alignEnd="@+id/button2"
+        android:layout_alignParentStart="false"
+        android:backgroundTint="#ffc567"
+        android:layout_alignParentEnd="false"
+        android:shadowColor="#c59065"
+        android:singleLine="false"
+        android:onClick="displayMessage" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/scoresapp_button"
+        android:id="@+id/button2"
+        android:layout_below="@+id/button"
+        android:layout_alignStart="@+id/button3"
+        android:layout_alignEnd="@+id/button3"
+        android:backgroundTint="#ffc567"
+        android:shadowColor="#c59065"
+        android:onClick="displayMessage" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/libraryapp_button"
+        android:id="@+id/button3"
+        android:layout_below="@+id/button2"
+        android:layout_alignStart="@+id/button4"
+        android:layout_alignEnd="@+id/button4"
+        android:backgroundTint="#ffc567"
+        android:shadowColor="#c59065"
+        android:onClick="displayMessage" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/builditbigger_button"
+        android:id="@+id/button4"
+        android:layout_below="@+id/button3"
+        android:layout_alignStart="@+id/button5"
+        android:layout_alignEnd="@+id/button5"
+        android:backgroundTint="#ffc567"
+        android:shadowColor="#c59065"
+        android:onClick="displayMessage" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/xyzreader_button"
+        android:id="@+id/button5"
+        android:layout_below="@+id/button4"
+        android:layout_alignStart="@+id/button6"
+        android:layout_alignEnd="@+id/button6"
+        android:backgroundTint="#ffc567"
+        android:shadowColor="#c59065"
+        android:onClick="displayMessage" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/capstone_button"
+        android:id="@+id/button6"
+        android:layout_below="@+id/button5"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#ff2e76"
+        android:shadowColor="#c59065"
+        android:onClick="displayMessage" />
+
+</RelativeLayout>
