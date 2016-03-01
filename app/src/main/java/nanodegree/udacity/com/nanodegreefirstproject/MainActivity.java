@@ -24,7 +24,7 @@ public class MainActivity extends Activity {
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
     }
-    
+
 
 
     public void displayMessage(View view)
